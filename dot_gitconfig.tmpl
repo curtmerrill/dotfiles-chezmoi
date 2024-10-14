@@ -1,0 +1,22 @@
+[init]
+    defaultBranch = main
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+    filemode = false
+[fetch]
+    prune = true
+[pull]
+    rebase = false
+[push]
+    autoSetupRemote = true
+[include]
+    path = ~/.gitconfig.local
+[user]
+    name = Curt Merrill
+    email = {{ .email | quote }}
